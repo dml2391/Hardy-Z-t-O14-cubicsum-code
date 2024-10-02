@@ -1,0 +1,30 @@
+#!/bin/bash --login
+
+# === SLURM Batch Script for 'zeta' Job ===
+
+# Job Details
+#SBATCH --job-name=zeta
+#SBATCH --time=06:00:00
+#SBATCH --nodes=4
+#SBATCH --tasks-per-node=128
+#SBATCH --cpus-per-task=1
+
+# Account Details
+#SBATCH --account=ta070-ashbre1
+#SBATCH --partition=standard
+#SBATCH --qos=standard
+
+# Switch from Cray to GNU programming environment
+module swap PrgEnv-cray PrgEnv-gnu
+
+# Set dynamic linking for PARI Library 
+export CRAYPE_LINK_TYPE=dynamic
+
+if [ ! -f zeta14v3resa ]; then
+    touch zeta14v3resa
+fi
+
+# Run the compiled Fortran program 'zeta.out' in parallel
+# Using 'time' to measure its execution duration
+time srun zeta.out
+
