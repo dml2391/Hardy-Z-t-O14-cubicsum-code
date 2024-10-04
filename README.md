@@ -6,11 +6,11 @@ A repository of Fortran/C codes for the rapid calculation of the Hardy function 
 ## Prerequisites
 
 1. A Linux environment with standard build tools (like `wget`, `make`, and `tar`) installed.
-2. A Fortran compiler with quadmaths capabilities and the MPI message passing library capabilities. 
-   The scripts here assume you have  `ftn` using `gfortran`.
+2. A Fortran compiler with quadmath capabilities and the MPI message passing library capabilities. 
+   The scripts here assume you are using  `ftn`, the Cray Fortran compiler, using the GNU programming environment.
 3. A SLURM workload manager for batch job submission.
 
-### 0. Setup and Running
+### 0. Setup
 
 To get started, clone the repository to your local machine and enter the directory:
 
@@ -19,7 +19,7 @@ git clone https://github.com/dml2391/Hardy-Z-t-code.git
 cd Hardy-Z-t-code
 ```
 
-### 1. Install PARI Library
+### 1. Install the PARI Library
 
 Run the `install_pari.sh` script. This script will:
 
@@ -49,7 +49,7 @@ bash run_test.sh
 ```
 
 
-### 4. Submit the Job to SLURM
+### 4. Submit a Job to SLURM
 
 Before submitting, you need to ensure that the SLURM account in `zeta.pbs` matches your available SLURM account. To check your available account, run:
 
