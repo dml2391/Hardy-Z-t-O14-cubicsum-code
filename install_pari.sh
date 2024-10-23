@@ -5,8 +5,19 @@ set -e
 
 # PARI Version
 PARI_VERSION="2.15.4"
+#PARI_VERSION="2.17.0"
+
+# File to download
 PARI_FILENAME="pari-${PARI_VERSION}.tar.gz"
-PARI_URL="https://pari.math.u-bordeaux.fr/pub/pari/unix/${PARI_FILENAME}"
+
+# Set the URL to download code from - different for the 2.15 family
+if [[ $PARI_VERSION == *"2.15"* ]]; then
+  PARI_URL="https://pari.math.u-bordeaux.fr/pub/pari/OLD/2.15/${PARI_FILENAME}"
+fi
+
+if [[ $PARI_VERSION == *"2.17"* ]]; then
+  PARI_URL="https://pari.math.u-bordeaux.fr/pub/pari/unix/${PARI_FILENAME}"
+fi
 
 # Script to Download, Compile, and Install PARI
 
