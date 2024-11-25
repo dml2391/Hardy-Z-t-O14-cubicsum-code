@@ -4,7 +4,8 @@
 set -e
 
 # PARI Version
-PARI_VERSION="2.15.4"
+#PARI_VERSION="2.15.5"
+PARI_VERSION="2.15.5"
 #PARI_VERSION="2.17.0"
 
 # File to download
