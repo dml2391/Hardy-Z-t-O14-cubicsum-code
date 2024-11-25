@@ -10,7 +10,7 @@
 #SBATCH --cpus-per-task=1
 
 # Account Details
-#SBATCH --account=ta070-ashbre1
+#SBATCH --account=ChangeMe
 #SBATCH --partition=standard
 #SBATCH --qos=standard
 
@@ -20,6 +20,7 @@ module swap PrgEnv-cray PrgEnv-gnu
 # Set dynamic linking for PARI Library 
 export CRAYPE_LINK_TYPE=dynamic
 
+# Create the output file if it does not already exist
 if [ ! -f zeta14v3resa ]; then
     touch zeta14v3resa
 fi

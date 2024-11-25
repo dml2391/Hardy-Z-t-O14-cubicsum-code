@@ -57,7 +57,7 @@ Before submitting, you need to ensure that the SLURM account in `zeta.pbs` match
 sacctmgr show assoc where user=$LOGNAME format=user,Account%12,MaxTRESMins,QOS%40
 ```
 
-Then, modify the `#SBATCH --account=ta070-ashbre1` line in `zeta.pbs` with your appropriate account details.
+Then, modify the `#SBATCH --account=ChangeMe` line in `zeta.pbs` with your appropriate account details.
 
 To submit the job, use:
 
