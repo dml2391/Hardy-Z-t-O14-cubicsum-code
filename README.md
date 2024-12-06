@@ -67,7 +67,7 @@ sbatch zeta.pbs
 
 File Descriptions:
 
-* `zeta.f90`: Fortran source file for the calculation. **TO BE UPDATED**
+* Fortran source files options are described in [src/README.md](src/README.mmd).
 * `install_pari.sh`: Script to download, compile, and install PARI.
 * `compile.sh`: Script to compile the Fortran program with PARI library linkage. **TO BE UPDATED**
 * `zeta.pbs`: SLURM batch job script for running the compiled Fortran program. **TO BE UPDATED**
