@@ -16,7 +16,6 @@ module PARI
        real(kind=C_DOUBLE), VALUE  :: r
      end function dbltor
      !
-     !
      real(kind=C_DOUBLE) function rtodbl( x ) bind(C,name='rtodbl')
        import C_DOUBLE, C_PTR
        type(C_PTR), VALUE :: x
@@ -247,16 +246,14 @@ program mpi_harness
      else ! Assuming only up to 99 domains
        myformat = "(A13, I2)"
      endif
-     write(myoutputfile, myformat) "zeta14v6resa-", colour 
 
-   !write(*,*) "Rank: ", myrank, " Colour: ", colour, " Key: ", key, " Output file: ", myoutputfile
+     ! Output file name for each subset of processes.
+     write(myoutputfile, myformat) "zeta14v6resa-", colour 
 
    ! Read the input parameters
      open(2,file='inputs4.nml',status='old')
        read(unit = 2, nml=inputs)
      close(2,status='keep')
-
-   !write(*,*) "Rank: ", myrank, " Colour: ", colour, " YT: ", YT, " et: ", et, " numbercalc: ", numbercalc
 
    ! Create new communicators for subdomains
    call MPI_Comm_split(MPI_COMM_WORLD, colour, key, comm, ierr)
@@ -266,7 +263,7 @@ program mpi_harness
    !---------------------------------------------------------------------
    call compute_hardy_fast(myoutputfile, comm, inYT(colour), et, numbercalc)
    
-
+   ! Clear the sub communicators.
    call MPI_Comm_free(comm, ierr)
    call MPI_Finalize(ierr)
 
@@ -347,12 +344,8 @@ subroutine compute_hardy_fast(outfile, COMM, myYT, my_et, my_numbercalc)
   et = my_et
   numbercalc = my_numbercalc
 
-  !CALL MPI_Init(IERR)
-  !COMM = MPI_COMM_WORLD
   CALL  MPI_COMM_RANK(COMM, RANK, IERR)
   CALL  MPI_COMM_SIZE(COMM, COMM_SIZE, IERR)
-
-  !call MPI_Op_create(qsum,.true.,mysum,IERR)
 
   C=1.0
   p=4*ATAN(C)
@@ -552,18 +545,6 @@ subroutine compute_hardy_fast(outfile, COMM, myYT, my_et, my_numbercalc)
 !  irsp(3,1)=00000000
 !  irsp(4,1)=56100000
 !  irsp(5,1)=00000000
-
-
-   ! open(2,file='inputs3.nml',status='old')
-   ! do i=1,9
-   !  read(2,4001) line
-   ! enddo
-   ! read(2,4002) et
-   ! read(2,4003) YT
-   ! read(2,4001) line
-   ! read(2,4006) numbercalc
-
-   !close(2,status='keep')
 
   nchalf=2*numbercalc-1 
 
