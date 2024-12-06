@@ -1,0 +1,840 @@
+Current t value=  0.31067883362908396566754057659368205E+33
+Current a value=  0.2812716042151237915982086024362033E+17
+ Relative error scale=     0.00500000  Cut off integer for QG sums= 849
+ Cut off alpha integer=  4692507903850378480862.35  Estimate of number of blocks needed= 203
+Riemann-Siegel phase=      5.92427900306387352875862
+pc phase            =      0.98339648977566607106720 Mmax= 10
+ ******************************************************************************************
+ Block 0. Initial alpha value=  28127160421512381
+zsum after this block=       0.009336080
+alpha value at end of this block=     28127160427814583 Cpu time needed for this block=    0.131491E+02
+ ----------------------------------------------------------------------
+Block number=     1 Number of Gsums=         3371832 Length of Gsums=              31
+zsum after this block=       0.144659162
+alpha value at end of this block=        28127160643611831.0 Cpu time needed for this block=    0.134376E+03
+ ----------------------------------------------------------------------
+Block number=     2 Number of Gsums=         3608025 Length of Gsums=             289
+zsum after this block=       0.465415402
+alpha value at end of this block=        28127162736266331.0 Cpu time needed for this block=    0.470560E-01
+ ----------------------------------------------------------------------
+Block number=     3 Number of Gsums=         3860764 Length of Gsums=            1249
+zsum after this block=       1.054949028
+alpha value at end of this block=        28127172388176331.0 Cpu time needed for this block=    0.194626E+00
+ ----------------------------------------------------------------------
+Block number=     4 Number of Gsums=         4131206 Length of Gsums=            3491
+zsum after this block=       1.845383027
+alpha value at end of this block=        28127201240519035.0 Cpu time needed for this block=    0.211988E+00
+ ----------------------------------------------------------------------
+Block number=     5 Number of Gsums=         4420593 Length of Gsums=            7517
+zsum after this block=       2.957361169
+alpha value at end of this block=        28127267708555383.0 Cpu time needed for this block=    0.223211E+00
+ ----------------------------------------------------------------------
+Block number=     6 Number of Gsums=         4730251 Length of Gsums=           13753
+zsum after this block=       4.444076548
+alpha value at end of this block=        28127397828299891.0 Cpu time needed for this block=    0.269713E+00
+ ----------------------------------------------------------------------
+Block number=     7 Number of Gsums=         5061601 Length of Gsums=           22593
+zsum after this block=       6.232348800
+alpha value at end of this block=        28127626551925879.0 Cpu time needed for this block=    0.272392E+00
+ ----------------------------------------------------------------------
+Block number=     8 Number of Gsums=         5416161 Length of Gsums=           34445
+zsum after this block=       8.392053674
+alpha value at end of this block=        28127999682089491.0 Cpu time needed for this block=    0.365049E+00
+ ----------------------------------------------------------------------
+Block number=     9 Number of Gsums=         5795557 Length of Gsums=           49745
+zsum after this block=      10.923721370
+alpha value at end of this block=        28128576293646535.0 Cpu time needed for this block=    0.431295E+00
+ ----------------------------------------------------------------------
+Block number=    10 Number of Gsums=         6201530 Length of Gsums=           68977
+zsum after this block=      13.877231134
+alpha value at end of this block=        28129431831919215.0 Cpu time needed for this block=    0.545042E+00
+ ----------------------------------------------------------------------
+Block number=    11 Number of Gsums=         6635941 Length of Gsums=           92681
+zsum after this block=      17.153751734
+alpha value at end of this block=        28130661896486739.0 Cpu time needed for this block=    0.622349E+00
+ ----------------------------------------------------------------------
+Block number=    12 Number of Gsums=         7100782 Length of Gsums=          121469
+zsum after this block=      21.049219117
+alpha value at end of this block=        28132386960465819.0 Cpu time needed for this block=    0.891969E+02
+ ----------------------------------------------------------------------
+Block number=    13 Number of Gsums=         7598184 Length of Gsums=          156025
+zsum after this block=      25.336866414
+alpha value at end of this block=        28134757988979387.0 Cpu time needed for this block=    0.905566E+00
+ ----------------------------------------------------------------------
+Block number=    14 Number of Gsums=         8130429 Length of Gsums=          197121
+zsum after this block=      30.156562563
+alpha value at end of this block=        28137963361830063.0 Cpu time needed for this block=    0.109904E+01
+ ----------------------------------------------------------------------
+Block number=    15 Number of Gsums=         8699958 Length of Gsums=          245627
+zsum after this block=      35.506169374
+alpha value at end of this block=        28142237268397311.0 Cpu time needed for this block=    0.159430E+01
+ ----------------------------------------------------------------------
+Block number=    16 Number of Gsums=         9309381 Length of Gsums=          302521
+zsum after this block=      41.672933201
+alpha value at end of this block=        28147869853515075.0 Cpu time needed for this block=    0.150670E+01
+ ----------------------------------------------------------------------
+Block number=    17 Number of Gsums=         9961493 Length of Gsums=          368909
+zsum after this block=      48.611939353
+alpha value at end of this block=        28155219642280335.0 Cpu time needed for this block=    0.183064E+01
+ ----------------------------------------------------------------------
+Block number=    18 Number of Gsums=        10659286 Length of Gsums=          446027
+zsum after this block=      56.253712484
+alpha value at end of this block=        28164728322312351.0 Cpu time needed for this block=    0.216192E+01
+ ----------------------------------------------------------------------
+Block number=    19 Number of Gsums=        11405958 Length of Gsums=          535271
+zsum after this block=      64.779658681
+alpha value at end of this block=        28176938902213503.0 Cpu time needed for this block=    0.254808E+01
+ ----------------------------------------------------------------------
+Block number=    20 Number of Gsums=        12204934 Length of Gsums=          638211
+zsum after this block=      74.161284431
+alpha value at end of this block=        28192517572889519.0 Cpu time needed for this block=    0.291598E+01
+ ----------------------------------------------------------------------
+Block number=    21 Number of Gsums=        13059877 Length of Gsums=          756609
+zsum after this block=      84.911451839
+alpha value at end of this block=        28212280039963459.0 Cpu time needed for this block=    0.342910E+01
+ ----------------------------------------------------------------------
+Block number=    22 Number of Gsums=        13974708 Length of Gsums=          892447
+zsum after this block=      96.429421994
+alpha value at end of this block=        28237223440373827.0 Cpu time needed for this block=    0.283985E+01
+ ----------------------------------------------------------------------
+Block number=    23 Number of Gsums=        14953622 Length of Gsums=         1047949
+zsum after this block=     109.385258608
+alpha value at end of this block=        28268564736723627.0 Cpu time needed for this block=    0.468321E+01
+ ----------------------------------------------------------------------
+Block number=    24 Number of Gsums=        16001108 Length of Gsums=         1225613
+zsum after this block=     123.863199944
+alpha value at end of this block=        28307787100684251.0 Cpu time needed for this block=    0.538046E+01
+ ----------------------------------------------------------------------
+Block number=    25 Number of Gsums=        17121969 Length of Gsums=         1428245
+zsum after this block=     139.520259379
+alpha value at end of this block=        28356695868156999.0 Cpu time needed for this block=    0.416869E+01
+ ----------------------------------------------------------------------
+Block number=    26 Number of Gsums=        18321345 Length of Gsums=         1658995
+zsum after this block=     156.876766451
+alpha value at end of this block=        28417485944296239.0 Cpu time needed for this block=    0.270113E+02
+ ----------------------------------------------------------------------
+Block number=    27 Number of Gsums=        19604737 Length of Gsums=         1921397
+zsum after this block=     176.082169976
+alpha value at end of this block=        28492822949220891.0 Cpu time needed for this block=    0.825902E+01
+ ----------------------------------------------------------------------
+Block number=    28 Number of Gsums=        20978028 Length of Gsums=         2219419
+zsum after this block=     197.023733773
+alpha value at end of this block=        28585941059028411.0 Cpu time needed for this block=    0.583761E+01
+ ----------------------------------------------------------------------
+Block number=    29 Number of Gsums=        22447518 Length of Gsums=         2557509
+zsum after this block=     220.495440484
+alpha value at end of this block=        28700760562548771.0 Cpu time needed for this block=    0.404616E+01
+ ----------------------------------------------------------------------
+Block number=    30 Number of Gsums=        24019944 Length of Gsums=         2940661
+zsum after this block=     246.282634240
+alpha value at end of this block=        28842029635674627.0 Cpu time needed for this block=    0.126793E+02
+ ----------------------------------------------------------------------
+Block number=    31 Number of Gsums=        25702516 Length of Gsums=         3374471
+zsum after this block=     274.285775759
+alpha value at end of this block=        29015494476817731.0 Cpu time needed for this block=    0.640935E+01
+ ----------------------------------------------------------------------
+Block number=    32 Number of Gsums=        27502951 Length of Gsums=         3865221
+zsum after this block=     305.290715634
+alpha value at end of this block=        29228104499357975.0 Cpu time needed for this block=    0.986154E+01
+ ----------------------------------------------------------------------
+Block number=    33 Number of Gsums=        29429505 Length of Gsums=         4419951
+zsum after this block=     339.251660666
+alpha value at end of this block=        29488258498325495.0 Cpu time needed for this block=    0.806620E+01
+ ----------------------------------------------------------------------
+Block number=    34 Number of Gsums=        31491011 Length of Gsums=         5046555
+zsum after this block=     376.491119969
+alpha value at end of this block=        29806100799341727.0 Cpu time needed for this block=    0.495436E+01
+ ----------------------------------------------------------------------
+Block number=    35 Number of Gsums=        33696924 Length of Gsums=         5753887
+zsum after this block=     417.275921470
+alpha value at end of this block=        30193877452622751.0 Cpu time needed for this block=    0.251793E+02
+ ----------------------------------------------------------------------
+Block number=    36 Number of Gsums=        36057359 Length of Gsums=         6551863
+zsum after this block=     461.468800635
+alpha value at end of this block=        30666363277357103.0 Cpu time needed for this block=    0.886500E+01
+ ----------------------------------------------------------------------
+Block number=    37 Number of Gsums=        38583141 Length of Gsums=         7451609
+zsum after this block=     510.325145997
+alpha value at end of this block=        31241376315971123.0 Cpu time needed for this block=    0.137802E+02
+ ----------------------------------------------------------------------
+Block number=    38 Number of Gsums=        38583141 Length of Gsums=        11177413
+zsum after this block=     575.396718486
+alpha value at end of this block=        32103895796725871.0 Cpu time needed for this block=    0.131400E+02
+ ----------------------------------------------------------------------
+Block number=    39 Number of Gsums=        38583141 Length of Gsums=        16766119
+zsum after this block=     660.096543864
+alpha value at end of this block=        33397674940691711.0 Cpu time needed for this block=    0.529431E+02
+ ----------------------------------------------------------------------
+Block number=    40 Number of Gsums=        38583141 Length of Gsums=        21217545
+zsum after this block=     752.206022040
+alpha value at end of this block=        35034954078675683.0 Cpu time needed for this block=    0.239619E+02
+ ----------------------------------------------------------------------
+Block number=    41 Number of Gsums=        38583141 Length of Gsums=        22695627
+zsum after this block=     837.890007648
+alpha value at end of this block=        36786291309090779.0 Cpu time needed for this block=    0.371646E+02
+ ----------------------------------------------------------------------
+Block number=    42 Number of Gsums=        38583141 Length of Gsums=        24255617
+zsum after this block=     919.642824278
+alpha value at end of this block=        38658007167763055.0 Cpu time needed for this block=    0.310795E+02
+ ----------------------------------------------------------------------
+Block number=    43 Number of Gsums=        38583141 Length of Gsums=        25902045
+zsum after this block=     997.654927623
+alpha value at end of this block=        40656771753776027.0 Cpu time needed for this block=    0.269261E+02
+ ----------------------------------------------------------------------
+Block number=    44 Number of Gsums=        38583141 Length of Gsums=        27639793
+zsum after this block=    1073.233259137
+alpha value at end of this block=        42789631892001935.0 Cpu time needed for this block=    0.240114E+02
+ ----------------------------------------------------------------------
+Block number=    45 Number of Gsums=        38583141 Length of Gsums=        29474111
+zsum after this block=    1147.345368226
+alpha value at end of this block=        45064039530293519.0 Cpu time needed for this block=    0.224921E+02
+ ----------------------------------------------------------------------
+Block number=    46 Number of Gsums=        38583141 Length of Gsums=        31410635
+zsum after this block=    1218.955722990
+alpha value at end of this block=        47487881525668871.0 Cpu time needed for this block=    0.220892E+02
+ ----------------------------------------------------------------------
+Block number=    47 Number of Gsums=        38583141 Length of Gsums=        33455401
+zsum after this block=    1289.898463900
+alpha value at end of this block=        50069510510824235.0 Cpu time needed for this block=    0.197901E+02
+ ----------------------------------------------------------------------
+Block number=    48 Number of Gsums=        38583141 Length of Gsums=        35614855
+zsum after this block=    1359.077734297
+alpha value at end of this block=        52817776532309627.0 Cpu time needed for this block=    0.232258E+02
+ ----------------------------------------------------------------------
+Block number=    49 Number of Gsums=        38583141 Length of Gsums=        37895883
+zsum after this block=    1427.866625494
+alpha value at end of this block=        55742061003692915.0 Cpu time needed for this block=    0.174694E+02
+ ----------------------------------------------------------------------
+Block number=    50 Number of Gsums=        38583141 Length of Gsums=        40305815
+zsum after this block=    1496.024687058
+alpha value at end of this block=        58852310967389027.0 Cpu time needed for this block=    0.173466E+02
+ ----------------------------------------------------------------------
+Block number=    51 Number of Gsums=        38583141 Length of Gsums=        42852459
+zsum after this block=    1563.096563585
+alpha value at end of this block=        62159075980142747.0 Cpu time needed for this block=    0.173585E+02
+ ----------------------------------------------------------------------
+Block number=    52 Number of Gsums=        38583141 Length of Gsums=        45544115
+zsum after this block=    1629.653187283
+alpha value at end of this block=        65673546078839459.0 Cpu time needed for this block=    0.159565E+02
+ ----------------------------------------------------------------------
+Block number=    53 Number of Gsums=        38583141 Length of Gsums=        48389597
+zsum after this block=    1695.692322428
+alpha value at end of this block=        69407591443974095.0 Cpu time needed for this block=    0.243824E+03
+ ----------------------------------------------------------------------
+Block number=    54 Number of Gsums=        38583141 Length of Gsums=        51398269
+zsum after this block=    1761.557718386
+alpha value at end of this block=        73373804841106235.0 Cpu time needed for this block=    0.145759E+02
+ ----------------------------------------------------------------------
+Block number=    55 Number of Gsums=        38583141 Length of Gsums=        54580061
+zsum after this block=    1826.808978459
+alpha value at end of this block=        77585545296975719.0 Cpu time needed for this block=    0.130201E+02
+ ----------------------------------------------------------------------
+Block number=    56 Number of Gsums=        38583141 Length of Gsums=        57945507
+zsum after this block=    1891.961099450
+alpha value at end of this block=        82056984707936975.0 Cpu time needed for this block=    0.131567E+02
+ ----------------------------------------------------------------------
+Block number=    57 Number of Gsums=        38583141 Length of Gsums=        61505773
+zsum after this block=    1956.295979946
+alpha value at end of this block=        86803156609049243.0 Cpu time needed for this block=    0.119215E+02
+ ----------------------------------------------------------------------
+Block number=    58 Number of Gsums=        38583141 Length of Gsums=        65272697
+zsum after this block=    2020.504529220
+alpha value at end of this block=        91840008029818079.0 Cpu time needed for this block=    0.114247E+02
+ ----------------------------------------------------------------------
+Block number=    59 Number of Gsums=        38583141 Length of Gsums=        69258819
+zsum after this block=    2084.925162872
+alpha value at end of this block=        97184453664925319.0 Cpu time needed for this block=    0.109905E+02
+ ----------------------------------------------------------------------
+Block number=    60 Number of Gsums=        38583141 Length of Gsums=        73477433
+zsum after this block=    2149.186553815
+alpha value at end of this block=       102854434057605707.0 Cpu time needed for this block=    0.114605E+02
+ ----------------------------------------------------------------------
+Block number=    61 Number of Gsums=        38583141 Length of Gsums=        77942615
+zsum after this block=    2212.855794209
+alpha value at end of this block=       108868975943679419.0 Cpu time needed for this block=    0.104228E+02
+ ----------------------------------------------------------------------
+Block number=    62 Number of Gsums=        38583141 Length of Gsums=        82669281
+zsum after this block=    2276.456528247
+alpha value at end of this block=       115248257071228943.0 Cpu time needed for this block=    0.106599E+02
+ ----------------------------------------------------------------------
+Block number=    63 Number of Gsums=        38583141 Length of Gsums=        87673229
+zsum after this block=    2340.003135278
+alpha value at end of this block=       122013674261259803.0 Cpu time needed for this block=    0.104872E+02
+ ----------------------------------------------------------------------
+Block number=    64 Number of Gsums=        38583141 Length of Gsums=        92971191
+zsum after this block=    2403.056623957
+alpha value at end of this block=       129187915481007947.0 Cpu time needed for this block=    0.932148E+01
+ ----------------------------------------------------------------------
+Block number=    65 Number of Gsums=        38583141 Length of Gsums=        98580893
+zsum after this block=    2466.150455843
+alpha value at end of this block=       136795036547224055.0 Cpu time needed for this block=    0.124300E+02
+ ----------------------------------------------------------------------
+Block number=    66 Number of Gsums=        38583141 Length of Gsums=       104521107
+zsum after this block=    2529.148063629
+alpha value at end of this block=       144860541842104511.0 Cpu time needed for this block=    0.752636E+02
+ ----------------------------------------------------------------------
+Block number=    67 Number of Gsums=        38583141 Length of Gsums=       110811723
+zsum after this block=    2592.069125530
+alpha value at end of this block=       153411470585194679.0 Cpu time needed for this block=    0.912819E+01
+ ----------------------------------------------------------------------
+Block number=    68 Number of Gsums=        38583141 Length of Gsums=       117473801
+zsum after this block=    2654.790770787
+alpha value at end of this block=       162476487117938843.0 Cpu time needed for this block=    0.832285E+01
+ ----------------------------------------------------------------------
+Block number=    69 Number of Gsums=        38583141 Length of Gsums=       124529651
+zsum after this block=    2717.064212252
+alpha value at end of this block=       172085977361532707.0 Cpu time needed for this block=    0.943684E+01
+ ----------------------------------------------------------------------
+Block number=    70 Number of Gsums=        38583141 Length of Gsums=       132002911
+zsum after this block=    2779.741135780
+alpha value at end of this block=       182272151293745891.0 Cpu time needed for this block=    0.817711E+01
+ ----------------------------------------------------------------------
+Block number=    71 Number of Gsums=        38583141 Length of Gsums=       139918609
+zsum after this block=    2842.044220824
+alpha value at end of this block=       193069150210053911.0 Cpu time needed for this block=    0.981111E+01
+ ----------------------------------------------------------------------
+Block number=    72 Number of Gsums=        38583141 Length of Gsums=       148303269
+zsum after this block=    2904.512159487
+alpha value at end of this block=       204513162164396051.0 Cpu time needed for this block=    0.756397E+01
+ ----------------------------------------------------------------------
+Block number=    73 Number of Gsums=        38583141 Length of Gsums=       157184981
+zsum after this block=    2966.663933953
+alpha value at end of this block=       216642542811572975.0 Cpu time needed for this block=    0.969106E+01
+ ----------------------------------------------------------------------
+Block number=    74 Number of Gsums=        38583141 Length of Gsums=       166593501
+zsum after this block=    3029.266451561
+alpha value at end of this block=       229497943966272539.0 Cpu time needed for this block=    0.785425E+01
+ ----------------------------------------------------------------------
+Block number=    75 Number of Gsums=        38583141 Length of Gsums=       176560357
+zsum after this block=    3091.302872445
+alpha value at end of this block=       243122450341721495.0 Cpu time needed for this block=    0.737824E+01
+ ----------------------------------------------------------------------
+Block number=    76 Number of Gsums=        38583141 Length of Gsums=       187118945
+zsum after this block=    3152.855500583
+alpha value at end of this block=       257561723696300267.0 Cpu time needed for this block=    0.725188E+01
+ ----------------------------------------------------------------------
+Block number=    77 Number of Gsums=        38583141 Length of Gsums=       198304647
+zsum after this block=    3214.904887059
+alpha value at end of this block=       272864156085779003.0 Cpu time needed for this block=    0.656295E+01
+ ----------------------------------------------------------------------
+Block number=    78 Number of Gsums=        38583141 Length of Gsums=       210154947
+zsum after this block=    3276.667445463
+alpha value at end of this block=       289081032066842339.0 Cpu time needed for this block=    0.792651E+01
+ ----------------------------------------------------------------------
+Block number=    79 Number of Gsums=        38583141 Length of Gsums=       222709553
+zsum after this block=    3338.615081603
+alpha value at end of this block=       306266700314900567.0 Cpu time needed for this block=    0.614522E+01
+ ----------------------------------------------------------------------
+Block number=    80 Number of Gsums=        38583141 Length of Gsums=       236010541
+zsum after this block=    3400.555303028
+alpha value at end of this block=       324478756353845411.0 Cpu time needed for this block=    0.811872E+02
+ ----------------------------------------------------------------------
+Block number=    81 Number of Gsums=        38583141 Length of Gsums=       250102481
+zsum after this block=    3461.925110993
+alpha value at end of this block=       343778235008757335.0 Cpu time needed for this block=    0.636263E+01
+ ----------------------------------------------------------------------
+Block number=    82 Number of Gsums=        38583141 Length of Gsums=       265032601
+zsum after this block=    3523.759653707
+alpha value at end of this block=       364229815513883099.0 Cpu time needed for this block=    0.693218E+01
+ ----------------------------------------------------------------------
+Block number=    83 Number of Gsums=        38583141 Length of Gsums=       280850931
+zsum after this block=    3585.156938554
+alpha value at end of this block=       385902037732557923.0 Cpu time needed for this block=    0.721422E+01
+ ----------------------------------------------------------------------
+Block number=    84 Number of Gsums=        38583141 Length of Gsums=       297610487
+zsum after this block=    3646.603613512
+alpha value at end of this block=       408867532575723539.0 Cpu time needed for this block=    0.645647E+01
+ ----------------------------------------------------------------------
+Block number=    85 Number of Gsums=        38583141 Length of Gsums=       315367429
+zsum after this block=    3707.706967987
+alpha value at end of this block=       433203264612718799.0 Cpu time needed for this block=    0.640840E+01
+ ----------------------------------------------------------------------
+Block number=    86 Number of Gsums=        38583141 Length of Gsums=       334181269
+zsum after this block=    3769.234839009
+alpha value at end of this block=       458990790732656939.0 Cpu time needed for this block=    0.599253E+01
+ ----------------------------------------------------------------------
+Block number=    87 Number of Gsums=        38583141 Length of Gsums=       354115055
+zsum after this block=    3830.185446107
+alpha value at end of this block=       486316533004398731.0 Cpu time needed for this block=    0.538070E+01
+ ----------------------------------------------------------------------
+Block number=    88 Number of Gsums=        38583141 Length of Gsums=       375235593
+zsum after this block=    3891.196471309
+alpha value at end of this block=       515272068667440239.0 Cpu time needed for this block=    0.591374E+01
+ ----------------------------------------------------------------------
+Block number=    89 Number of Gsums=        38583141 Length of Gsums=       397613661
+zsum after this block=    3952.398919139
+alpha value at end of this block=       545954436636384923.0 Cpu time needed for this block=    0.569935E+01
+ ----------------------------------------------------------------------
+Block number=    90 Number of Gsums=        38583141 Length of Gsums=       421324255
+zsum after this block=    4012.846853669
+alpha value at end of this block=       578466462988321115.0 Cpu time needed for this block=    0.561080E+01
+ ----------------------------------------------------------------------
+Block number=    91 Number of Gsums=        38583141 Length of Gsums=       446446837
+zsum after this block=    4073.940114755
+alpha value at end of this block=       612917105587437431.0 Cpu time needed for this block=    0.517818E+01
+ ----------------------------------------------------------------------
+Block number=    92 Number of Gsums=        38583141 Length of Gsums=       473065599
+zsum after this block=    4134.497885079
+alpha value at end of this block=       649421819081536631.0 Cpu time needed for this block=    0.567901E+01
+ ----------------------------------------------------------------------
+Capability day run on 1024 nodes 
+
+Now a standard restart on 8 nodes
+zsum after this block=    4134.497885079
+Alpha value restarts at=     649421819081536631.0
+Block number=    93 Number of Gsums=        38583141 Length of Gsums=       501269753
+zsum after this block=    4195.074459776
+alpha value at end of this block=       688102942276771259.0 Cpu time needed for this block=    0.418526E+03
+ ----------------------------------------------------------------------
+Block number=    94 Number of Gsums=        38583141 Length of Gsums=       531153813
+zsum after this block=    4255.753272281
+alpha value at end of this block=       729090107273270807.0 Cpu time needed for this block=    0.420024E+03
+ ----------------------------------------------------------------------
+Block number=    95 Number of Gsums=        38583141 Length of Gsums=       562817931
+zsum after this block=    4315.997552634
+alpha value at end of this block=       772520674528639631.0 Cpu time needed for this block=    0.419250E+03
+ ----------------------------------------------------------------------
+Block number=    96 Number of Gsums=        38583141 Length of Gsums=       596368225
+zsum after this block=    4376.355888388
+alpha value at end of this block=       818540193231995363.0 Cpu time needed for this block=    0.417198E+03
+ ----------------------------------------------------------------------
+Block number=    97 Number of Gsums=        38583141 Length of Gsums=       631917129
+zsum after this block=    4436.618696783
+alpha value at end of this block=       867302888686206023.0 Cpu time needed for this block=    0.418495E+03
+ ----------------------------------------------------------------------
+Block number=    98 Number of Gsums=        38583141 Length of Gsums=       669583783
+zsum after this block=    4496.957054558
+alpha value at end of this block=       918972179784977111.0 Cpu time needed for this block=    0.418466E+03
+ ----------------------------------------------------------------------
+Block number=    99 Number of Gsums=        38583141 Length of Gsums=       709494413
+zsum after this block=    4557.167574819
+alpha value at end of this block=       973721225813125859.0 Cpu time needed for this block=    0.416206E+03
+ ----------------------------------------------------------------------
+Block number=   100 Number of Gsums=        38583141 Length of Gsums=       751782777
+zsum after this block=    4616.734226541
+alpha value at end of this block=      1031733507663017255.0 Cpu time needed for this block=    0.414742E+03
+ ----------------------------------------------------------------------
+Block number=   101 Number of Gsums=        38583141 Length of Gsums=       796590593
+zsum after this block=    4676.971753431
+alpha value at end of this block=      1093203442078168763.0 Cpu time needed for this block=    0.511413E+03
+ ----------------------------------------------------------------------
+Block number=   102 Number of Gsums=        38583141 Length of Gsums=       844068027
+zsum after this block=    4736.867253799
+alpha value at end of this block=      1158337033554000659.0 Cpu time needed for this block=    0.507888E+03
+ ----------------------------------------------------------------------
+Block number=   103 Number of Gsums=        38583141 Length of Gsums=       894374191
+zsum after this block=    4796.471313796
+alpha value at end of this block=      1227352564667394803.0 Cpu time needed for this block=    0.507873E+03
+ ----------------------------------------------------------------------
+Block number=   104 Number of Gsums=        38583141 Length of Gsums=       947677675
+zsum after this block=    4856.022503546
+alpha value at end of this block=      1300481327458715435.0 Cpu time needed for this block=    0.512294E+03
+ ----------------------------------------------------------------------
+Block number=   105 Number of Gsums=        38583141 Length of Gsums=      1004157113
+zsum after this block=    4915.836915314
+alpha value at end of this block=      1377968398489945583.0 Cpu time needed for this block=    0.510757E+03
+ ----------------------------------------------------------------------
+Block number=   106 Number of Gsums=        38583141 Length of Gsums=      1064001789
+zsum after this block=    4974.978178534
+alpha value at end of this block=      1460073460665590363.0 Cpu time needed for this block=    0.509051E+03
+ ----------------------------------------------------------------------
+Block number=   107 Number of Gsums=        38583141 Length of Gsums=      1127412259
+zsum after this block=    5034.564783740
+alpha value at end of this block=      1547071673051007683.0 Cpu time needed for this block=    0.508194E+03
+ ----------------------------------------------------------------------
+Block number=   108 Number of Gsums=        38583141 Length of Gsums=      1194601029
+zsum after this block=    5093.871413416
+alpha value at end of this block=      1639254593009478143.0 Cpu time needed for this block=    0.511054E+03
+ ----------------------------------------------------------------------
+Block number=   109 Number of Gsums=        38583141 Length of Gsums=      1265793271
+zsum after this block=    5152.860129800
+alpha value at end of this block=      1736931153590332847.0 Cpu time needed for this block=    0.506134E+03
+ ----------------------------------------------------------------------
+Block number=   110 Number of Gsums=        38583141 Length of Gsums=      1341227571
+zsum after this block=    5212.270943349
+alpha value at end of this block=      1840428698637460151.0 Cpu time needed for this block=    0.510174E+03
+ ----------------------------------------------------------------------
+Block number=   111 Number of Gsums=        38583141 Length of Gsums=      1421156733
+zsum after this block=    5271.337631203
+alpha value at end of this block=      1950094079939503139.0 Cpu time needed for this block=    0.507824E+03
+ ----------------------------------------------------------------------
+Block number=   112 Number of Gsums=        38583141 Length of Gsums=      1505848623
+zsum after this block=    5330.008414257
+alpha value at end of this block=      2066294819508399107.0 Cpu time needed for this block=    0.508280E+03
+ ----------------------------------------------------------------------
+Block number=   113 Number of Gsums=        38583141 Length of Gsums=      1595587071
+zsum after this block=    5389.013021101
+alpha value at end of this block=      2189420341461905411.0 Cpu time needed for this block=    0.512801E+03
+ ----------------------------------------------------------------------
+Block number=   114 Number of Gsums=        38583141 Length of Gsums=      1690672815
+zsum after this block=    5447.633171119
+alpha value at end of this block=      2319883276751095523.0 Cpu time needed for this block=    0.502995E+03
+ ----------------------------------------------------------------------
+Block number=   115 Number of Gsums=        38583141 Length of Gsums=      1791424519
+zsum after this block=    5505.968891198
+alpha value at end of this block=      2458120846443130163.0 Cpu time needed for this block=    0.508714E+03
+ ----------------------------------------------------------------------
+Block number=   116 Number of Gsums=        38583141 Length of Gsums=      1898179829
+zsum after this block=    5564.370836599
+alpha value at end of this block=      2604596326491622223.0 Cpu time needed for this block=    0.506519E+03
+ ----------------------------------------------------------------------
+Block number=   117 Number of Gsums=        38583141 Length of Gsums=      2011296519
+zsum after this block=    5623.156302302
+alpha value at end of this block=      2759800600939560863.0 Cpu time needed for this block=    0.503784E+03
+ ----------------------------------------------------------------------
+Block number=   118 Number of Gsums=        38583141 Length of Gsums=      2131153675
+zsum after this block=    5681.306076356
+alpha value at end of this block=      2924253806487113495.0 Cpu time needed for this block=    0.506701E+03
+ ----------------------------------------------------------------------
+Block number=   119 Number of Gsums=        38583141 Length of Gsums=      2258152975
+zsum after this block=    5739.507758354
+alpha value at end of this block=      3098507075832268727.0 Cpu time needed for this block=    0.506927E+03
+ ----------------------------------------------------------------------
+Block number=   120 Number of Gsums=        38583141 Length of Gsums=      2392720033
+zsum after this block=    5797.436482284
+alpha value at end of this block=      3283144384722962315.0 Cpu time needed for this block=    0.499945E+03
+ ----------------------------------------------------------------------
+Block number=   121 Number of Gsums=        38583141 Length of Gsums=      2535305823
+zsum after this block=    5855.315445046
+alpha value at end of this block=      3478784508893988683.0 Cpu time needed for this block=    0.499792E+03
+ ----------------------------------------------------------------------
+Block number=   122 Number of Gsums=        38583141 Length of Gsums=      2686388193
+zsum after this block=    5913.132176675
+alpha value at end of this block=      3686083097833663391.0 Cpu time needed for this block=    0.505094E+03
+ ----------------------------------------------------------------------
+Block number=   123 Number of Gsums=        38583141 Length of Gsums=      2846473467
+zsum after this block=    5970.791929892
+alpha value at end of this block=      3905734872170869367.0 Cpu time needed for this block=    0.498840E+03
+ ----------------------------------------------------------------------
+Block number=   124 Number of Gsums=        38583141 Length of Gsums=      3016098141
+zsum after this block=    6028.233454084
+alpha value at end of this block=      4138475951936117411.0 Cpu time needed for this block=    0.506965E+03
+ ----------------------------------------------------------------------
+Block number=   125 Number of Gsums=        38583141 Length of Gsums=      3195830675
+zsum after this block=    6086.132910175
+alpha value at end of this block=      4385086323104584043.0 Cpu time needed for this block=    0.500991E+03
+ ----------------------------------------------------------------------
+Block number=   126 Number of Gsums=        38583141 Length of Gsums=      3386273411
+zsum after this block=    6143.497184907
+alpha value at end of this block=      4646392452144078227.0 Cpu time needed for this block=    0.499753E+03
+ ----------------------------------------------------------------------
+Block number=   127 Number of Gsums=        38583141 Length of Gsums=      3588064577
+zsum after this block=    6200.578837701
+alpha value at end of this block=      4923270055204237223.0 Cpu time needed for this block=    0.497089E+03
+ ----------------------------------------------------------------------
+Block number=   128 Number of Gsums=        38583141 Length of Gsums=      3801880441
+zsum after this block=    6257.565879482
+alpha value at end of this block=      5216647033521893867.0 Cpu time needed for this block=    0.500860E+03
+ ----------------------------------------------------------------------
+Block number=   129 Number of Gsums=        38583141 Length of Gsums=      4028437561
+zsum after this block=    6314.961667464
+alpha value at end of this block=      5527506582450578351.0 Cpu time needed for this block=    0.495856E+03
+ ----------------------------------------------------------------------
+Block number=   130 Number of Gsums=        38583141 Length of Gsums=      4268495201
+zsum after this block=    6371.998549063
+alpha value at end of this block=      5856890486923757315.0 Cpu time needed for this block=    0.507409E+03
+ ----------------------------------------------------------------------
+Block number=   131 Number of Gsums=        38583141 Length of Gsums=      4522857867
+zsum after this block=    6428.730360625
+alpha value at end of this block=      6205902612611764091.0 Cpu time needed for this block=    0.496722E+03
+ ----------------------------------------------------------------------
+Block number=   132 Number of Gsums=        38583141 Length of Gsums=      4792378003
+zsum after this block=    6485.335958364
+alpha value at end of this block=      6575712605119025219.0 Cpu time needed for this block=    0.497652E+03
+ ----------------------------------------------------------------------
+Block number=   133 Number of Gsums=        38583141 Length of Gsums=      5077958857
+zsum after this block=    6541.919059449
+alpha value at end of this block=      6967559810339851175.0 Cpu time needed for this block=    0.493968E+03
+ ----------------------------------------------------------------------
+Block number=   134 Number of Gsums=        38583141 Length of Gsums=      5380557495
+zsum after this block=    6598.035046424
+alpha value at end of this block=      7382757427393401047.0 Cpu time needed for this block=    0.493627E+03
+ ----------------------------------------------------------------------
+Block number=   135 Number of Gsums=        38583141 Length of Gsums=      5701188017
+zsum after this block=    6654.491584786
+alpha value at end of this block=      7822696909725410123.0 Cpu time needed for this block=    0.492292E+03
+ ----------------------------------------------------------------------
+Block number=   136 Number of Gsums=        38583141 Length of Gsums=      6040924955
+zsum after this block=    6710.696480841
+alpha value at end of this block=      8288852628420943715.0 Cpu time needed for this block=    0.499621E+03
+ ----------------------------------------------------------------------
+Block number=   137 Number of Gsums=        38583141 Length of Gsums=      6400906869
+zsum after this block=    6766.851745528
+alpha value at end of this block=      8782786813007101055.0 Cpu time needed for this block=    0.491375E+03
+ ----------------------------------------------------------------------
+Block number=   138 Number of Gsums=        38583141 Length of Gsums=      6782340169
+zsum after this block=    6822.696747597
+alpha value at end of this block=      9306154787185248995.0 Cpu time needed for this block=    0.492414E+03
+ ----------------------------------------------------------------------
+Block number=   139 Number of Gsums=        38583141 Length of Gsums=      7186503153
+zsum after this block=    6878.481098623
+alpha value at end of this block=      9860710516160702423.0 Cpu time needed for this block=    0.488769E+03
+ ----------------------------------------------------------------------
+Block number=   140 Number of Gsums=        38583141 Length of Gsums=      7614750295
+zsum after this block=    6934.090483354
+alpha value at end of this block=     10448312484861421895.0 Cpu time needed for this block=    0.487690E+03
+ ----------------------------------------------------------------------
+Block number=   141 Number of Gsums=        38583141 Length of Gsums=      8068516779
+zsum after this block=    6989.671312889
+alpha value at end of this block=     11070929926028633855.0 Cpu time needed for this block=    0.487500E+03
+ ----------------------------------------------------------------------
+Block number=   142 Number of Gsums=        38583141 Length of Gsums=      8549323319
+zsum after this block=    7045.048264704
+alpha value at end of this block=     11730649420248930095.0 Cpu time needed for this block=    0.490017E+03
+ ----------------------------------------------------------------------
+Block number=   143 Number of Gsums=        38583141 Length of Gsums=      9058781239
+zsum after this block=    7100.122982008
+alpha value at end of this block=     12429681887991079775.0 Cpu time needed for this block=    0.482577E+03
+ ----------------------------------------------------------------------
+Block number=   144 Number of Gsums=        38583141 Length of Gsums=      9598597893
+zsum after this block=    7155.537940275
+alpha value at end of this block=     13170369999884089883.0 Cpu time needed for this block=    0.484072E+03
+ ----------------------------------------------------------------------
+Block number=   145 Number of Gsums=        38583141 Length of Gsums=     10170582365
+zsum after this block=    7210.237804035
+alpha value at end of this block=     13955196026843073095.0 Cpu time needed for this block=    0.480959E+03
+ ----------------------------------------------------------------------
+Block number=   146 Number of Gsums=        38583141 Length of Gsums=     10776651553
+zsum after this block=    7265.070836778
+alpha value at end of this block=     14786790159674775323.0 Cpu time needed for this block=    0.480424E+03
+ ----------------------------------------------------------------------
+Block number=   147 Number of Gsums=        38583141 Length of Gsums=     11418836575
+zsum after this block=    7319.820390935
+alpha value at end of this block=     15667939323010305755.0 Cpu time needed for this block=    0.481411E+03
+ ----------------------------------------------------------------------
+Block number=   148 Number of Gsums=        38583141 Length of Gsums=     12099289593
+zsum after this block=    7374.621642188
+alpha value at end of this block=     16601596515820575263.0 Cpu time needed for this block=    0.481944E+03
+ ----------------------------------------------------------------------
+Block number=   149 Number of Gsums=        38583141 Length of Gsums=     12820291011
+zsum after this block=    7428.911260230
+alpha value at end of this block=     17590890707374632647.0 Cpu time needed for this block=    0.480371E+03
+ ----------------------------------------------------------------------
+Block number=   150 Number of Gsums=        38583141 Length of Gsums=     13584257121
+zsum after this block=    7483.136986311
+alpha value at end of this block=     18639137323211393051.0 Cpu time needed for this block=    0.479005E+03
+ ----------------------------------------------------------------------
+Block number=   151 Number of Gsums=        38583141 Length of Gsums=     14393748209
+zsum after this block=    7537.199154121
+alpha value at end of this block=     19749849356621248271.0 Cpu time needed for this block=    0.480518E+03
+ ----------------------------------------------------------------------
+Block number=   152 Number of Gsums=        38583141 Length of Gsums=     15251477123
+zsum after this block=    7591.473569006
+alpha value at end of this block=     20926749141288381239.0 Cpu time needed for this block=    0.479512E+03
+ ----------------------------------------------------------------------
+Block number=   153 Number of Gsums=        38583141 Length of Gsums=     16160318377
+zsum after this block=    7645.301503782
+alpha value at end of this block=     22173780826454911835.0 Cpu time needed for this block=    0.475319E+03
+ ----------------------------------------------------------------------
+Block number=   154 Number of Gsums=        38583141 Length of Gsums=     17123317771
+zsum after this block=    7699.153702774
+alpha value at end of this block=     23495123594424675539.0 Cpu time needed for this block=    0.473919E+03
+ ----------------------------------------------------------------------
+Block number=   155 Number of Gsums=        38583141 Length of Gsums=     18143702611
+zsum after this block=    7752.568426309
+alpha value at end of this block=     24895205666706404123.0 Cpu time needed for this block=    0.471482E+03
+ ----------------------------------------------------------------------
+Block number=   156 Number of Gsums=        38583141 Length of Gsums=     19224892515
+zsum after this block=    7806.245680186
+alpha value at end of this block=     26378719144015749635.0 Cpu time needed for this block=    0.467729E+03
+ ----------------------------------------------------------------------
+Block number=   157 Number of Gsums=        38583141 Length of Gsums=     20370510881
+zsum after this block=    7859.343378370
+alpha value at end of this block=     27950635731220230359.0 Cpu time needed for this block=    0.464411E+03
+ ----------------------------------------------------------------------
+Block number=   158 Number of Gsums=        38583141 Length of Gsums=     21584397025
+zsum after this block=    7912.596119030
+alpha value at end of this block=     29616223398928507691.0 Cpu time needed for this block=    0.460065E+03
+ ----------------------------------------------------------------------
+Block number=   159 Number of Gsums=        38583141 Length of Gsums=     22870619047
+zsum after this block=    7965.920790830
+alpha value at end of this block=     31381064037901047227.0 Cpu time needed for this block=    0.453822E+03
+ ----------------------------------------------------------------------
+Block number=   160 Number of Gsums=        38583141 Length of Gsums=     24233487467
+zsum after this block=    8019.100436133
+alpha value at end of this block=     33251072165700201203.0 Cpu time needed for this block=    0.450437E+03
+ ----------------------------------------------------------------------
+Block number=   161 Number of Gsums=        38583141 Length of Gsums=     25677569675
+zsum after this block=    8071.686296216
+alpha value at end of this block=     35232514748393065835.0 Cpu time needed for this block=    0.446937E+03
+ ----------------------------------------------------------------------
+Block number=   162 Number of Gsums=        38583141 Length of Gsums=     27207705227
+zsum after this block=    8124.251486832
+alpha value at end of this block=     37332032202589788131.0 Cpu time needed for this block=    0.443402E+03
+ ----------------------------------------------------------------------
+Block number=   163 Number of Gsums=        38583141 Length of Gsums=     28829022073
+zsum after this block=    8176.586011563
+alpha value at end of this block=     39556660649736296999.0 Cpu time needed for this block=    0.437818E+03
+ ----------------------------------------------------------------------
+Block number=   164 Number of Gsums=        38583141 Length of Gsums=     30546953739
+zsum after this block=    8228.891253369
+alpha value at end of this block=     41913855496278091679.0 Cpu time needed for this block=    0.433438E+03
+ ----------------------------------------------------------------------
+Block number=   165 Number of Gsums=        38583141 Length of Gsums=     32367257539
+zsum after this block=    8281.210535506
+alpha value at end of this block=     44411516419176357959.0 Cpu time needed for this block=    0.428640E+03
+ ----------------------------------------------------------------------
+Block number=   166 Number of Gsums=        38583141 Length of Gsums=     34296033859
+zsum after this block=    8333.435384288
+alpha value at end of this block=     47058013839498666479.0 Cpu time needed for this block=    0.425731E+03
+ ----------------------------------------------------------------------
+Block number=   167 Number of Gsums=        38583141 Length of Gsums=     36339746621
+zsum after this block=    8385.182246544
+alpha value at end of this block=     49862216975140465883.0 Cpu time needed for this block=    0.421993E+03
+ ----------------------------------------------------------------------
+Block number=   168 Number of Gsums=        38583141 Length of Gsums=     38505244923
+zsum after this block=    8436.974254850
+alpha value at end of this block=     52833523563424918451.0 Cpu time needed for this block=    0.417929E+03
+ ----------------------------------------------------------------------
+Block number=   169 Number of Gsums=        38583141 Length of Gsums=     40799786013
+zsum after this block=    8488.345060464
+alpha value at end of this block=     55981891356520898399.0 Cpu time needed for this block=    0.410982E+03
+ ----------------------------------------------------------------------
+Block number=   170 Number of Gsums=        38583141 Length of Gsums=     43231059591
+zsum after this block=    8539.885377272
+alpha value at end of this block=     59317871492155975343.0 Cpu time needed for this block=    0.402523E+03
+ ----------------------------------------------------------------------
+Block number=   171 Number of Gsums=        38583141 Length of Gsums=     45807213599
+zsum after this block=    8591.400538303
+alpha value at end of this block=     62852643854447810543.0 Cpu time needed for this block=    0.392888E+03
+ ----------------------------------------------------------------------
+Block number=   172 Number of Gsums=        38583141 Length of Gsums=     48536881509
+zsum after this block=    8642.692033017
+alpha value at end of this block=     66598054540449056363.0 Cpu time needed for this block=    0.380372E+03
+ ----------------------------------------------------------------------
+Block number=   173 Number of Gsums=        38583141 Length of Gsums=     51429211269
+zsum after this block=    8693.268337176
+alpha value at end of this block=     70566655560347454503.0 Cpu time needed for this block=    0.362185E+03
+ ----------------------------------------------------------------------
+Block number=   174 Number of Gsums=        38583141 Length of Gsums=     54493895957
+zsum after this block=    8744.324687922
+alpha value at end of this block=     74771746903121142659.0 Cpu time needed for this block=    0.342677E+03
+ ----------------------------------------------------------------------
+Block number=   175 Number of Gsums=        38583141 Length of Gsums=     57741206263
+zsum after this block=    8794.812435414
+alpha value at end of this block=     79227421108709133107.0 Cpu time needed for this block=    0.324362E+03
+ ----------------------------------------------------------------------
+Block number=   176 Number of Gsums=        38583141 Length of Gsums=     61182024909
+zsum after this block=    8845.294766079
+alpha value at end of this block=     83948610496245217727.0 Cpu time needed for this block=    0.307350E+03
+ ----------------------------------------------------------------------
+Block number=   177 Number of Gsums=        38583141 Length of Gsums=     64827883129
+zsum after this block=    8895.699964538
+alpha value at end of this block=     88951137207317840387.0 Cpu time needed for this block=    0.288545E+03
+ ----------------------------------------------------------------------
+Block number=   178 Number of Gsums=        38583141 Length of Gsums=     68690999299
+zsum after this block=    8945.937346929
+alpha value at end of this block=     94251766230163442987.0 Cpu time needed for this block=    0.270374E+03
+ ----------------------------------------------------------------------
+Block number=   179 Number of Gsums=        38583141 Length of Gsums=     72784319897
+zsum after this block=    8995.946926973
+alpha value at end of this block=     99868261584590722223.0 Cpu time needed for this block=    0.255266E+03
+ ----------------------------------------------------------------------
+Block number=   180 Number of Gsums=        38583141 Length of Gsums=     77121562887
+zsum after this block=    9045.895372720
+alpha value at end of this block=    105819445854686864639.0 Cpu time needed for this block=    0.241667E+03
+ ----------------------------------------------------------------------
+Block number=   181 Number of Gsums=        38583141 Length of Gsums=     81717263685
+zsum after this block=    9095.651150991
+alpha value at end of this block=    112125263268549100091.0 Cpu time needed for this block=    0.228743E+03
+ ----------------------------------------------------------------------
+Block number=   182 Number of Gsums=        38583141 Length of Gsums=     86586823887
+zsum after this block=    9145.297311327
+alpha value at end of this block=    118806846538174844507.0 Cpu time needed for this block=    0.216573E+03
+ ----------------------------------------------------------------------
+Block number=   183 Number of Gsums=        38583141 Length of Gsums=     91746562867
+zsum after this block=    9194.955269834
+alpha value at end of this block=    125886587680977661283.0 Cpu time needed for this block=    0.205152E+03
+ ----------------------------------------------------------------------
+Block number=   184 Number of Gsums=        38583141 Length of Gsums=     97213772481
+zsum after this block=    9244.572846862
+alpha value at end of this block=    133388213062607513207.0 Cpu time needed for this block=    0.193429E+03
+ ----------------------------------------------------------------------
+Block number=   185 Number of Gsums=        38583141 Length of Gsums=    103006775009
+zsum after this block=    9293.224049916
+alpha value at end of this block=    141336862910939726027.0 Cpu time needed for this block=    0.184124E+03
+ ----------------------------------------------------------------------
+Block number=   186 Number of Gsums=        38583141 Length of Gsums=    109144984567
+zsum after this block=    9342.337622211
+alpha value at end of this block=    149759175568999662203.0 Cpu time needed for this block=    0.174439E+03
+ ----------------------------------------------------------------------
+Block number=   187 Number of Gsums=        38583141 Length of Gsums=    115648972161
+zsum after this block=    9390.833593719
+alpha value at end of this block=    158683376767862703887.0 Cpu time needed for this block=    0.165298E+03
+ ----------------------------------------------------------------------
+Block number=   188 Number of Gsums=        38583141 Length of Gsums=    122540534629
+zsum after this block=    9439.349191767
+alpha value at end of this block=    168139374219552049547.0 Cpu time needed for this block=    0.156654E+03
+ ----------------------------------------------------------------------
+Block number=   189 Number of Gsums=        38583141 Length of Gsums=    129842767695
+zsum after this block=    9487.975316532
+alpha value at end of this block=    178158857847242075819.0 Cpu time needed for this block=    0.148659E+03
+ ----------------------------------------------------------------------
+Block number=   190 Number of Gsums=        38583141 Length of Gsums=    137580143363
+zsum after this block=    9536.250291861
+alpha value at end of this block=    188775405987668928467.0 Cpu time needed for this block=    0.141087E+03
+ ----------------------------------------------------------------------
+Block number=   191 Number of Gsums=        38583141 Length of Gsums=    145778591929
+zsum after this block=    9584.431504536
+alpha value at end of this block=    200024597922102232727.0 Cpu time needed for this block=    0.133839E+03
+ ----------------------------------------------------------------------
+Block number=   192 Number of Gsums=        38583141 Length of Gsums=    154465588891
+zsum after this block=    9632.235377007
+alpha value at end of this block=    211944133113838372271.0 Cpu time needed for this block=    0.127055E+03
+ ----------------------------------------------------------------------
+Block number=   193 Number of Gsums=        38583141 Length of Gsums=    163670247015
+zsum after this block=    9680.404421980
+alpha value at end of this block=    224573957550084686783.0 Cpu time needed for this block=    0.120545E+03
+ ----------------------------------------------------------------------
+Block number=   194 Number of Gsums=        38583141 Length of Gsums=    173423413913
+zsum after this block=    9727.846909545
+alpha value at end of this block=    237956397613575134531.0 Cpu time needed for this block=    0.114420E+03
+ ----------------------------------------------------------------------
+Block number=   195 Number of Gsums=        38583141 Length of Gsums=    183757775409
+zsum after this block=    9775.733222422
+alpha value at end of this block=    252136301930555860151.0 Cpu time needed for this block=    0.108697E+03
+ ----------------------------------------------------------------------
+Block number=   196 Number of Gsums=        38583141 Length of Gsums=    194707965093
+zsum after this block=    9823.060387455
+alpha value at end of this block=    267161191672645620659.0 Cpu time needed for this block=    0.103270E+03
+ ----------------------------------------------------------------------
+Block number=   197 Number of Gsums=        38583141 Length of Gsums=    206310680381
+zsum after this block=    9869.731073049
+alpha value at end of this block=    283081419814614900383.0 Cpu time needed for this block=    0.980427E+02
+ ----------------------------------------------------------------------
+Block number=   198 Number of Gsums=        38583141 Length of Gsums=    218604805501
+zsum after this block=    9916.856275196
+alpha value at end of this block=    299950339882537383947.0 Cpu time needed for this block=    0.948506E+02
+ ----------------------------------------------------------------------
+Block number=   199 Number of Gsums=        38583141 Length of Gsums=    231631541803
+zsum after this block=    9963.695225478
+alpha value at end of this block=    317824484757479636675.0 Cpu time needed for this block=    0.888069E+02
+ ----------------------------------------------------------------------
+Block number=   200 Number of Gsums=        38583141 Length of Gsums=    245434545845
+zsum after this block=   10010.165980993
+alpha value at end of this block=    336763756134774001247.0 Cpu time needed for this block=    0.846693E+02
+ ----------------------------------------------------------------------
+Block number=   201 Number of Gsums=        38583141 Length of Gsums=    260060075689
+zsum after this block=   10056.525013475
+alpha value at end of this block=    356831625272409885827.0 Cpu time needed for this block=    0.806439E+02
+ ----------------------------------------------------------------------
+Block number=   202 Number of Gsums=        38583141 Length of Gsums=    275557145933
+zsum after this block=   10103.196114420
+alpha value at end of this block=    378095345702668083215.0 Cpu time needed for this block=    0.766585E+02
+ ----------------------------------------------------------------------
+Block number=   203 Number of Gsums=        38583141 Length of Gsums=    291977691973
+zsum after this block=   10149.336620947
+alpha value at end of this block=    400626178619242903883.0 Cpu time needed for this block=    0.730204E+02
+ ----------------------------------------------------------------------
+Final value of ZP=  10149.3366209472
+Total cpu time needed for this calculation=  0.436986E+05
+NC cut off integer of RS part of sum=           246843939741
+ Value of RS contribution to sum=    6724.8116018849
+Total cpu time needed for this calculation=  0.330827E+04
+Riemann-Siegel NT value=       7031790105378095
+Riemann-Sieg NT frac=     -0.21004478493909597286438
+ Grand total of Hardy function Z(t)=   16874.1482228321
+Total cpu time needed for this calculation=  0.470692E+05 13 hrs 5min + 1hr on the capability day
+
+Answer found by Riemann Zeta Search Project = 16874.202. So error/discrepancy = 0.054, rel err = 3.2E-6, scaled rel err=6.4E-4*eps.
+Largest known value of abs(Z(t)), although this has probably been superceded now.
