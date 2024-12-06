@@ -1,0 +1,13 @@
+! input parameters:
+! t > 10**5
+! et, the relative error scale 0<et<<1. The smaller et the more accurate your result but
+!     the slower the code. A larger value gives a less accurate estimate of Z(t) but 
+!     goes faster. Values around 0.01-0.05 worked to six significant figures for 
+!     the mc=2 case.
+! YT  must have the same value as t but must be expressed as a character string of exactly 
+!     length 45 (very important that it is 45). 
+&inputs
+et=0.00010
+YT = '1.3785800474245974429404534500000000000000e24'
+!YT = '4.5890014847929271884961558864628190000000e31' Make sure YT is written exactly like this. Pad out with zeros to fill decimal places
+/
