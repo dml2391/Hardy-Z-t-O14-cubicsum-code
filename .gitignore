@@ -1,2 +1,6 @@
 # Ignore microsoft temporary files
 \~\$*
+# Ignore object and module files and the executable
+*.o
+zeta_dml.out
+*.mod
