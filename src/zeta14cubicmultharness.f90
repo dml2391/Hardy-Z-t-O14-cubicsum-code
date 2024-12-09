@@ -918,34 +918,14 @@ subroutine compute_hardy_fast(outfile, COMM, myYT, my_et, my_numbercalc)
 
      do jsum=(rank+1),aenums,COMM_SIZE   !AB_FLAG 
 
-
-
-
-!        if( MOD(jsum,10000) .eq. 0 ) then
-
-!           print*, 'jsum =  ', jsum
-
-!        endif
-
-
-
         RN4=2.0*(real(MT,dp)+1)*(real(jsum-1,dp))
         rae=raestartofblock  + RN4            ! LINE ONE
         RN1=RN1startofblock  + RN4            ! LINE TWO 
-
-
-
-
-        !        if (iblock.eq.1) then
-        !         write(2,2014) 'jsum rn4 and MT=',jsum,rn4,MT
-        !         write(2,2015) 'rae and rn1=',rae,rn1
-        !       endif
 
         call alphasum(MTM,rae,pcsum)
         do i=1,nchalf
            zsum1(i)=zsum1(i)+pcsum(i)
         enddo   
-
 
      enddo
 
@@ -953,27 +933,10 @@ subroutine compute_hardy_fast(outfile, COMM, myYT, my_et, my_numbercalc)
 
      !       RN1=RN1startofblock + min(2*(MT+1)*aenums*1.0,raecutoff)
      RN1=RN1startofblock + (2*(real(MT,dp)+1.0)*real(aenums,dp))
-     !       if (iblock.eq.4) then
-     !        write(2,2016) 'at finish ANENUMS=',aenums
-     !        write(2,2017) 'rn1 rn1start and 2*(mt+1)*AENUMS=',rn1,RN1startofblock,(2*(MT*1.0+1.0)*aenums)
-     !       endif
 
 
-   !   do i=1,nchalf
-   !    !CALL MPI_Barrier(COMM, IERR)
-   !    CALL MPI_ALLREDUCE(zsum1(i),zsum2(i),1,MPI_REAL16,MPI_SUM,COMM,IERR)
-   !    zsum(i)=zsum(i)+zsum2(i)
-   !   enddo 
      CALL MPI_ALLREDUCE(zsum1,zsum2,nchalf,MPI_REAL16,MPI_SUM,COMM,IERR)
      zsum=zsum+zsum2  
-      
-     !         if(RANK .eq. 0 .and. jsum .ge. (aenums-COMM_SIZE)) then
-
-     !         write(6,*) 'zsum outside after this block1= ',zsum
-     !         write(6,*) 'zsum2 outside after this block1= ',zsum2
-
-
-     !         endif
 
 
      call cpu_time(t2)
@@ -1044,11 +1007,6 @@ subroutine compute_hardy_fast(outfile, COMM, myYT, my_et, my_numbercalc)
    !   do i=1,nchalf
    !    rszsum1(i) = 0.0
 
-
-   !    !CALL MPI_Barrier(COMM,IERR)
-   !    CALL MPI_ALLREDUCE(RSZSUM(i),RSZSUM1(i),1,MPI_REAL16,MPI_SUM,COMM,IERR)
-   !    rszsumtot(i)=rszsumtot(i)+rszsum1(i)
-   !   enddo 
      rszsum1 = 0.0
      CALL MPI_ALLREDUCE(RSZSUM,RSZSUM1,nchalf,MPI_REAL16,MPI_SUM,COMM,IERR)
      rszsumtot=rszsumtot+rszsum1
