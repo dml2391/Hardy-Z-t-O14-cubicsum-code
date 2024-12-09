@@ -1,5 +1,9 @@
 # Makefile to compile code
 #
+# Choose the particular source you would like to compile by
+# commenting/uncommenting the particular file you want to compile.
+# It assumes that you have compiled the PARI library and it is 
+# available and that the PARI_DIR environment variable points to it.
 
 # Define variables, see stackoverflow 4879592 for different type of assignments.
 
