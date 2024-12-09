@@ -12,9 +12,9 @@ Some typical sample output files.
 
 5) **zeta15v628000111424.67p2** is an example of a large scale t=10<sup>28</sup> run from the zeta15quartic.f90 code. This was run using 4 nodes. Note the much smaller et=eps setting of 0.0001. Fewer blocks are needed since the initial quartic sums are larger than their cubic counterparts. 
    
+
 Note how the number of blocks increases (logarithmically) as the scale of t increases, and the corresponding increases in the number of summands of the cubic sums, within each block. 
 
-Notice too, the first blocks are computed very rapidly - see the figure below for the zeta14v6310057994.58p2 output file. Then the computation time increases to a maximum around block nos. 25-35. After that the block computation time slowly decreases, until very near the cut-off point when the times drop off very rapidly. (The jump at block
-100 is a setting change, when the maximum order of a Gauss sum in the hierarchal chain goes from 10 down to 8, which slows the block times but improves the accuracy of the computations ever so slightly.) 
+Notice too, the first blocks are computed very rapidly - see the figure below for the time taken to calculate each block derived from the **zeta14v6310057994.58p2** output file. Then the computation time increases to a maximum around block nos. 25-35. After that the block computation time slowly decreases, until very near the cut-off point when the times drop off very rapidly. (The jump at block 100 is a setting change, when the maximum order of a Gauss sum in the hierarchal chain goes from 10 down to 8, which slows the block times but improves the accuracy of the computations ever so slightly.) 
 
 ![Time taken to calculate block times for the zeta14v6310057994.58p2 output file.](imgs/zeta14v6310057994.58p2-block-times.png)
