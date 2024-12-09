@@ -226,7 +226,7 @@ program mpi_harness
    ! Ensure that the number of processes is a multiple of ndomains
    if(mod(nsize, ndomains) /= 0) then
        if(myrank == 0) then
-           print *, "The number of processes must be a multiple of ndomains"
+           print *, "The number of processes must be a multiple of ndomains."
        end if
        errcode = 1
        call MPI_Abort(MPI_COMM_WORLD, errcode, ierr)
@@ -934,15 +934,16 @@ subroutine compute_hardy_fast(outfile, COMM, myYT, my_et, my_numbercalc)
      !       RN1=RN1startofblock + min(2*(MT+1)*aenums*1.0,raecutoff)
      RN1=RN1startofblock + (2*(real(MT,dp)+1.0)*real(aenums,dp))
 
-
-     CALL MPI_ALLREDUCE(zsum1,zsum2,nchalf,MPI_REAL16,MPI_SUM,COMM,IERR)
+     ! The result is only collected at process 0
+     CALL MPI_REDUCE(zsum1,zsum2,nchalf,MPI_REAL16,MPI_SUM,0,COMM,IERR)
      zsum=zsum+zsum2  
 
 
      call cpu_time(t2)
      tim(iblock)=t2-t1
-
-     write(2,2003) 'zsum after this block= ',zsum(numbercalc)
+     if(RANK .eq. 0) then
+        write(2,2003) 'zsum after this block= ',zsum(numbercalc)
+     endif
      write(2,2008) 'alpha value at end of this block= ',RN1,'Cpu time needed for this block= ',tim(iblock)
      write(2,*) '----------------------------------------------------------------------'
   enddo
@@ -981,7 +982,6 @@ subroutine compute_hardy_fast(outfile, COMM, myYT, my_et, my_numbercalc)
 
 !  print*, 'NC = ', NC
 
-  DO IBLOCK=1,1
 
 
   ! AB_FLAG - this routine does N_INTERNAL iterations inside the pari routine
@@ -989,45 +989,45 @@ subroutine compute_hardy_fast(outfile, COMM, myYT, my_et, my_numbercalc)
   ! jsum = 2, loop from [ (1:N_internal) + N_internal ]
   ! We round up the amount of iterations to the nearest N_internal
      
-     NIS = 0
-     N_INTERNAL = 100000
-     N_MAX = floor( NC / (N_INTERNAL*1.0) )
+    NIS = 0
+    N_INTERNAL = 100000
+    N_MAX = floor( NC / (N_INTERNAL*1.0) )
 !     PRINT*, 'NUMBER OF ITERATION = ', N_MAX
 
 !     N_MAX = 128  ! this is for testing. N_MAX should be around 20,000. Assuming this is run on 1 node (128 procs).
 
-     DO jsum=(RANK+1),N_MAX,COMM_SIZE
+    DO jsum=(RANK+1),N_MAX,COMM_SIZE
 
         CALL pari_calc(rszsum,jsum,numbercalc,rsphasear,N_INTERNAL,NIS)
 
  !       rszsum = rszsum + rszsum1
 
-     ENDDO
+    ENDDO
 
    !   do i=1,nchalf
    !    rszsum1(i) = 0.0
 
-     rszsum1 = 0.0
-     CALL MPI_ALLREDUCE(RSZSUM,RSZSUM1,nchalf,MPI_REAL16,MPI_SUM,COMM,IERR)
-     rszsumtot=rszsumtot+rszsum1
+    rszsum1 = 0.0
+    ! Result is only available in process 0
+    CALL MPI_REDUCE(RSZSUM, RSZSUM1, nchalf, MPI_REAL16,MPI_SUM, 0, COMM, IERR)
+    rszsumtot=rszsumtot+rszsum1
 
 !  Additional bit of code to do the final bit of calculation written by DML
 
    !   do i=1,nchalf
    !    rszsum1(i) = 0.0
    !   enddo 
-      rszsum1 = 0.0
-      NIS=N_MAX*N_INTERNAL+1
+    rszsum1 = 0.0
+    NIS=N_MAX*N_INTERNAL+1
 !     print*,'final start value = ',NIS
-      N_INTERNAL=NC
+    N_INTERNAL=NC
 !     print*, 'final end value = ', N_INTERNAL
-      jsum=1
-      CALL pari_calc(rszsum1,jsum,numbercalc,rsphasear,N_INTERNAL,NIS)
+    jsum=1
+    CALL pari_calc(rszsum1,jsum,numbercalc,rsphasear,N_INTERNAL,NIS)
 
-      do i=1,nchalf
+    do i=1,nchalf
        rszsumtot(i)=rszsumtot(i)+rszsum1(i)
-      enddo   
-   ENDDO
+    enddo   
 
 
 !   PRINT*, 'rszsumtot = ', rszsumtot
@@ -1052,9 +1052,11 @@ subroutine compute_hardy_fast(outfile, COMM, myYT, my_et, my_numbercalc)
   call cpu_time(t2)
   rstime=t2-t1
   !      write(2,3006) 'NC cut off integer of RS part of sum= ',NC
-  do i=1,nchalf
-   write(2,3007) 'Value of RS contribution to sum= ', rszsum(i)
-  enddo   
+  if(RANK .eq. 0) then
+    do i=1,nchalf
+       write(2,3007) 'Value of RS contribution to sum= ', rszsum(i)
+    enddo
+  endif
   write(2,3005) 'Total cpu time needed for this calculation= ',(t2-t1) 
   write(2,3010) 'Riemann-Siegel NT value= ',RSN
   write(2,3009) 'Riemann-Sieg NT frac= ',rsfrac
