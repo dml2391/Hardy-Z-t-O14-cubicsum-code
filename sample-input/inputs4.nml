@@ -1,4 +1,18 @@
-! Test input file to test the MPI harness idea.
+! input parameters:
+!
+! et   the relative error scale 0<et<<1. The smaller et the more accurate your result but
+!      the slower the code. A larger value gives a less accurate estimate of Z(t) but
+!      goes faster. Values around 0.01-0.05 worked to six significant figures for
+!      the mc=2 case.
+! inYT must have the same value as t but must be expressed as a character string of exactly
+!      length 45 (very important that it is 45).
+!      The number of inYT values is set as a parameter in "ndomains" in the main code. If
+!      you want more or less values then you need to change that parameter and recompile.
+!      Also, the number of processes you run the code on must be divisible by ndomains with
+!      no remainder.
+! numbercalc is a small positive integer < 8 which dictates the number of roots that
+!     are going to be calculated around each inYT value (2*numbercalc -1).
+!
 &inputs
 et=0.00500
 numbercalc = 8 ! numbercalc is a small positive integer<10
@@ -6,12 +20,4 @@ inYT(1) = '1.0000000000000000000000020800000000000000e24'
 inYT(2) = '1.0000000000000000000000022300000000000000e24'
 inYT(3) = '1.0000000000000000000000023800000000000000e24'
 inYT(4) = '1.0000000000000000000000025300000000000000e24'
-!inYT(5) = '1.0000000000000000000000026800000000000000e24'
-!inYT(6) = '1.0000000000000000000000028300000000000000e24'
-!inYT(1) = '2.3802140526527201673110297170000000000000e25'
-!inYT(2) = '2.3802140526527201673110297320000000000000e25'
-!inYT(3) = '2.3802140526527201673110297470000000000000e25'
-!inYT(4) = '2.3802140526527201673110297620000000000000e25'
-!inYT(5) = '2.3802140526527201673110297770000000000000e25'
-!inYT(6) = '2.3802140526527201673110297920000000000000e25'
 /
