@@ -1065,12 +1065,13 @@ subroutine compute_hardy_fast(outfile, COMM, myYT, my_et, my_numbercalc)
    zsum(i)=zsum(i)+rszsum(i)
 
    !     Estimate for Z(t)=ZP(t)+RS part
-   
-   if (i.ge.numbercalc) then
-    write(2,3008) 'Grand total of Hardy function Z(t+',(i-numbercalc)*0.01,')= ',zsum(i)
-   else
-    write(2,3008) 'Grand total of Hardy function Z(t-',(numbercalc-i)*0.01,')= ',zsum(i)
-   endif   
+   if(rank.eq.0) then
+      if (i.ge.numbercalc) then
+         write(2,3008) 'Grand total of Hardy function Z(t+',(i-numbercalc)*0.01,')= ',zsum(i)
+      else
+         write(2,3008) 'Grand total of Hardy function Z(t-',(numbercalc-i)*0.01,')= ',zsum(i)
+      endif
+   endif
   enddo 
   write(2,3005) 'Total cpu time needed for this calculation= ',tsum
   close(2,status='keep')
