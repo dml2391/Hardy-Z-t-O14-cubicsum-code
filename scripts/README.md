@@ -9,3 +9,5 @@ Ancillary scripts.
   ```
 
   You can then use the csv file to plot the outputs. You may have to preface the script with `bash` if it is not executing as is for you.
+  
+* `compile.sh`: script that can be used to compile the code (replaced by a Makefile).

@@ -69,8 +69,8 @@ File Descriptions:
 
 * Fortran source files options are described in [src/README.md](src/README.md).
 * `install_pari.sh`: Script to download, compile, and install PARI.
-* `compile.sh`: Script to compile the Fortran program with PARI library linkage. **TO BE UPDATED**
-* `zeta.pbs`: SLURM batch job script for running the compiled Fortran program. **TO BE UPDATED**
+* `Makefile`: Script to compile the Fortran program with PARI library linkage. You will need to comment/uncomment in the Makefile the version of the code that you wish to compile.
+* `zeta.pbs`: SLURM batch job script for running the compiled Fortran program. 
 
 **Note**: The SLURM script will also check for the existence of a file named `zeta14v3resa` before executing the program. If the file does not exist, it will be created.
 
