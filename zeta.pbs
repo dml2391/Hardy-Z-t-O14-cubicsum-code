@@ -20,12 +20,15 @@ module swap PrgEnv-cray PrgEnv-gnu
 # Set dynamic linking for PARI Library 
 export CRAYPE_LINK_TYPE=dynamic
 
-# Create the output file if it does not already exist
-if [ ! -f zeta14v3resa ]; then
-    touch zeta14v3resa
+# Create the output files if it does not already exist
+if [ ! -f zeta14v6resa ]; then
+    touch zeta14v6resa
+fi
+if [ ! -f zeta15v6resa ]; then
+    touch zeta15v6resa
 fi
 
 # Run the compiled Fortran program 'zeta.out' in parallel
 # Using 'time' to measure its execution duration
-time srun zeta.out
+time srun zeta_dml.out
 
